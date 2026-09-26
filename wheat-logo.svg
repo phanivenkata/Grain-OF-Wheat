@@ -1,0 +1,56 @@
+<svg width="820" height="260" viewBox="0 0 820 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGrad" x1="40" y1="30" x2="210" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9E8A5"/>
+      <stop offset="0.18" stop-color="#E2C26A"/>
+      <stop offset="0.5" stop-color="#C5963F"/>
+      <stop offset="1" stop-color="#8D5F1D"/>
+    </linearGradient>
+    <linearGradient id="softGold" x1="30" y1="40" x2="190" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7D8"/>
+      <stop offset="1" stop-color="#E9C873"/>
+    </linearGradient>
+    <filter id="grainShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#B8872B" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(18 16)" filter="url(#grainShadow)">
+    <circle cx="110" cy="108" r="90" fill="#F8F4EB" stroke="url(#goldGrad)" stroke-width="2.5"/>
+
+    <g stroke="url(#goldGrad)" stroke-linecap="round">
+      <path d="M109 32V165" stroke-width="7"/>
+      <path d="M109 52C75 62 58 82 63 108C69 136 91 151 109 159" stroke-width="5.5"/>
+      <path d="M109 54C143 64 160 84 155 108C150 136 128 151 109 159" stroke-width="5.5"/>
+      <path d="M109 84C77 88 60 106 66 128C72 147 91 160 109 167" stroke-width="5"/>
+      <path d="M109 84C141 88 158 106 152 128C146 147 127 160 109 167" stroke-width="5"/>
+      <path d="M109 116C85 120 73 134 77 151C81 166 94 176 109 182" stroke-width="4.5"/>
+      <path d="M109 116C133 120 145 134 141 151C136 166 123 176 109 182" stroke-width="4.5"/>
+    </g>
+
+    <g fill="url(#softGold)">
+      <ellipse cx="109" cy="46" rx="11" ry="18" transform="rotate(-18 109 46)"/>
+      <ellipse cx="109" cy="66" rx="10" ry="17" transform="rotate(-8 109 66)"/>
+      <ellipse cx="109" cy="86" rx="10" ry="16" transform="rotate(6 109 86)"/>
+      <ellipse cx="109" cy="108" rx="10" ry="16" transform="rotate(18 109 108)"/>
+      <ellipse cx="109" cy="130" rx="9.5" ry="16" transform="rotate(-12 109 130)"/>
+      <ellipse cx="109" cy="151" rx="9" ry="15" transform="rotate(8 109 151)"/>
+    </g>
+
+    <g stroke="url(#goldGrad)" stroke-width="3.5" stroke-linecap="round" opacity="0.9">
+      <path d="M73 56C63 51 51 48 36 48"/>
+      <path d="M146 56C156 51 168 48 183 48"/>
+      <path d="M68 101C58 106 48 116 40 128"/>
+      <path d="M151 101C161 106 171 116 179 128"/>
+      <path d="M82 144C72 150 62 159 56 170"/>
+      <path d="M136 144C146 150 156 159 162 170"/>
+    </g>
+  </g>
+
+  <g transform="translate(245 62)">
+    <text x="0" y="46" fill="#111111" font-size="48" font-family="Georgia, 'Times New Roman', serif" font-weight="700" letter-spacing="1.5">A GRAIN OF WHEAT</text>
+    <text x="2" y="92" fill="#B98B2E" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="7">CHRISTIAN MINISTRIES</text>
+    <line x1="2" y1="118" x2="440" y2="118" stroke="#C5963F" stroke-width="2.5" opacity="0.9"/>
+    <text x="2" y="156" fill="#5A4F3D" font-size="17" font-family="Arial, Helvetica, sans-serif" letter-spacing="4">BOSTON</text>
+  </g>
+</svg>

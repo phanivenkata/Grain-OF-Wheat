@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prayer Request | A Grain of Wheat Christian Ministries in Boston</title>
+    <meta name="description" content="Submit a prayer request to A Grain of Wheat Christian Ministry in Boston." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="A Grain of Wheat Christian Ministry home">
+          <div class="brand-mark">✦</div>
+          <div>
+            <span class="brand-name">A Grain of Wheat</span>
+            <span class="brand-subtitle">Christian Ministries</span>
+          </div>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="ministries.html">Ministries</a>
+          <a href="sermons.html">Sermons</a>
+          <a href="events.html">Events</a>
+          <a href="give.html">Give</a>
+          <a href="prayer.html" class="active">Prayer</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <a class="button header-button" href="contact.html">Plan a Visit</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero short-hero prayer-hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content narrow">
+          <p class="eyebrow">Prayer</p>
+          <h1>We stand with you in prayer.</h1>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <div>
+            <p class="section-tag">Prayer care</p>
+            <h2>Share your need with us.</h2>
+            <p>
+              Every burden is an opportunity for God’s grace to move. We invite you to share your request and we will pray with you.
+            </p>
+            <ul class="check-list">
+              <li>Health and healing</li>
+              <li>Family and relationship needs</li>
+              <li>Financial guidance and provision</li>
+              <li>Spiritual direction and breakthrough</li>
+            </ul>
+          </div>
+
+          <form class="contact-form prayer-form">
+            <label>
+              First Name
+              <input type="text" name="firstName" placeholder="Your first name" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="Your email" />
+            </label>
+            <label>
+              Prayer Request
+              <textarea name="prayer" rows="6" placeholder="Please share your request..."></textarea>
+            </label>
+            <button type="submit" class="button primary">Send Prayer Request</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> A Grain of Wheat Christian Ministries in Boston</p>
+        <div class="socials">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">YouTube</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
